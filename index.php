@@ -27,7 +27,7 @@ set_error_handler(function ($errno, $errstr, $errfile, $errline, $errcontext) {
 $app = new \IMP\SlimTwigWrapper();
 
 $app->route('get', '/', function() {
-	$this->render("Hi!");
+	$this->render('<pre>'.print_r($this->getVars(), true).'</pre>');
 });
 
 $app->run();
