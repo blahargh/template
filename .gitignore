@@ -1,0 +1,12 @@
+# Exclude everything.
+/*
+
+# ... except
+!/models
+/models/*
+
+!.gitignore
+!composer.json
+!index.php
+!LICENSE
+!README.md
