@@ -3,6 +3,7 @@
 
 # ... except:
 !/models
+!/Sample
 !.gitignore
 !composer.json
 !index.php
