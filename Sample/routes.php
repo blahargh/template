@@ -2,7 +2,7 @@
 
 $app->route('get', '', function () {
 
-	$this->render('view_home.html', [
+	$this->render('home.html', [
 		'vars' => print_r($this->getVars(), true),
 	]);
 });
